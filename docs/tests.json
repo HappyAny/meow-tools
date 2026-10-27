@@ -1,0 +1,39 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "realUserToolsStarted": false,
+  "results": [
+    {
+      "name": "Tools directory is relative to the executable, not the caller working directory",
+      "passed": true
+    },
+    {
+      "name": "Missing folder is an empty collection and scanning does not create it",
+      "passed": true
+    },
+    {
+      "name": "Scan includes nested EXEs and shortcuts but excludes data and DLLs",
+      "passed": true
+    },
+    {
+      "name": "Refresh discovers new, renamed and removed tools",
+      "passed": true
+    },
+    {
+      "name": "Removed and out-of-folder paths cannot be launched",
+      "passed": true
+    },
+    {
+      "name": "EXE launch preserves Unicode, spaces and the tool working directory",
+      "passed": true
+    },
+    {
+      "name": "Windows shortcut preserves its target, arguments and own working directory",
+      "passed": true
+    },
+    {
+      "name": "Native launch button starts only the selected tool and closing leaves the child alive",
+      "passed": true
+    }
+  ]
+}

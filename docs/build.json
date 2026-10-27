@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "file": "喵喵小工具.exe",
+  "bytes": 65036365,
+  "sha256": "10ae8642364f0bd642a1777e0fecf03595e9671d9ae5c1632b0210c39279e668",
+  "self_contained": true,
+  "frameworks": [
+    {
+      "name": "Microsoft.NETCore.App",
+      "version": "10.0.14"
+    },
+    {
+      "name": "Microsoft.WindowsDesktop.App",
+      "version": "10.0.14"
+    }
+  ],
+  "distribution_file_count": 1
+}

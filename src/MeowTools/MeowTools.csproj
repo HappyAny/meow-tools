@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>喵喵小工具</AssemblyName><RootNamespace>MeowTools</RootNamespace><Version>1.0.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <Product>喵喵小工具</Product><Description>读取同目录 tools 文件夹的本地工具启动器</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets/app.ico"/><Resource Include="Assets/app.png"/>
+    <EmbeddedResource Include="../../LICENSE" LogicalName="MeowTools.Licenses.Project.txt"/>
+    <EmbeddedResource Include="../../THIRD-PARTY-NOTICES.md" LogicalName="MeowTools.Licenses.Notices.txt"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Runtime-10.0.14.txt" LogicalName="MeowTools.Licenses.DotNet.txt"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Runtime-ThirdPartyNotices-10.0.14.txt" LogicalName="MeowTools.Licenses.DotNetNotices.txt"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Desktop-10.0.14.txt" LogicalName="MeowTools.Licenses.Wpf.txt"/>
+  </ItemGroup>
+</Project>

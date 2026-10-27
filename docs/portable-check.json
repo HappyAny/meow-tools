@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "version": "1.0.0",
+  "toolsDirectory": "%USER_TOOL_DIRECTORY%\\tools",
+  "count": 3,
+  "toolNames": [
+    "漫步者耳机助手",
+    "PCM-A10",
+    "PILL 桌面助手"
+  ],
+  "relativePaths": [
+    "Edifier.exe",
+    "PCM-A10.exe",
+    "PILL.exe"
+  ],
+  "warnings": [],
+  "captures": [
+    "launcher-light.png",
+    "launcher-search.png",
+    "launcher-empty.png",
+    "launcher-dark.png",
+    "launcher-small.png"
+  ],
+  "licenses": 5,
+  "childToolsStarted": false,
+  "hardwareAccessed": false,
+  "exe_sha256": "10ae8642364f0bd642a1777e0fecf03595e9671d9ae5c1632b0210c39279e668",
+  "only_exe_copied": true,
+  "runtime_install_required": false,
+  "new_extraction_verified": true,
+  "icons": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ],
+  "isolation_trial": "D:\\Codes\\Vibe\\meow-tools\\artifacts\\portable-e195c48a862e4b5994fb91b2a30908c3"
+}

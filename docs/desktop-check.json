@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-26T21:55:52.992095+08:00",
+  "installed_executable": "%USER_TOOL_DIRECTORY%\\喵喵小工具.exe",
+  "sha256": "10ae8642364f0bd642a1777e0fecf03595e9671d9ae5c1632b0210c39279e668",
+  "normal_desktop_launch": true,
+  "default_bundle_extraction": true,
+  "extraction_override": false,
+  "three_existing_tools_listed": true,
+  "edifier_launched_via_launcher_button": true,
+  "edifier_window_title": "漫步者耳机助手",
+  "edifier_started_disconnected": true,
+  "hardware_scanned_or_modified": false,
+  "test_tool_closed_after_verification": true,
+  "launcher_left_open": true,
+  "desktop_test_suite": "8/8 passed; test subprocesses only"
+}
